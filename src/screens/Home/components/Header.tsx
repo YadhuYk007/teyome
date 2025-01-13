@@ -74,7 +74,11 @@ const Header = () => {
           }}
         />
         {text.length > 0 && (
-          <TouchableOpacity onPress={() => setText('')}>
+          <TouchableOpacity
+            onPress={() => {
+              setPropertyValue('');
+              setText('');
+            }}>
             <Clear height={20} width={20} />
           </TouchableOpacity>
         )}

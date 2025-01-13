@@ -86,7 +86,7 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
     paddingHorizontal: 4,
     position: 'absolute',
-    top: 20,
+    top: 35,
     right: 20,
     alignItems: 'center',
   },
