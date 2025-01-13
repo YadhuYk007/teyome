@@ -41,7 +41,7 @@ const Home = ({navigation}) => {
     <KeyboardAvoidingView
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
-      <StatusBar backgroundColor={'white'} barStyle={'dark-content'} />
+      <StatusBar backgroundColor={'transparent'} barStyle={'dark-content'} />
       <Header />
       <PropertyList
         onPress={() => {

@@ -92,12 +92,12 @@ export const styles = StyleSheet.create({
   },
   back: {
     position: 'absolute',
-    top: 30,
+    top: 40,
     left: 15,
     backgroundColor: 'white',
     zIndex: 1,
-    padding: 8,
-    borderRadius: 25,
+    padding: 10,
+    borderRadius: 30,
   },
   navigate: {
     width: '30%',
